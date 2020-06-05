@@ -13,6 +13,39 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript>
       <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+      .img-container {
+        text-align: center;
+      }
+    </style>
+    <style>
+      img {
+        border-radius: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4%;
+      }
+    </style>
+    <style>
+      .main {
+        background-color: white;
+      }
+    </style>
+    <style>
+      .projects {
+        text-align: center;
+        list-style-type: none
+      }
+    </style>
+    <style>
+      .code {
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        list-style-type: none
+      }
+    </style>
   </head>
 
   <body class="is-preload">
@@ -35,24 +68,29 @@
       <!-- Intro -->
       <section id="intro" class="wrapper style1 fullscreen fade-up">
         <div class="inner">
-          <h1>Sara De La Cruz</h1>
-          <p>Full Stack Software Developer</p><br />
-          <p>Based out of Nebraska, I create dynamic and responsive websites. When I am not coding I enjoy endless
-            hours of documentaries
-            and board games.</p>
-          <ul class="actions">
+          <div class="img-container">
+            <h1>Sara De La Cruz</h1>
+            <img text-align="center" src="./images/portfolio_pic.jpg" alt="Sara De La Cruz photo">
+            <p>Full Stack Software Developer</p><br />
+            <p>Passionate about learning and technology, I’m a midwest based Full Stack developer. I’m experienced in
+              JavaScript, HTML5, CSS3, Python and modern libraries such as React and React Native. On my free time I
+              enjoy
+              board games and endless hours of documentaries.
+            </p>
+          </div>
+          <ul class="projects">
             <li><a href="#two" class="button scrolly">Projects</a></li>
           </ul>
         </div>
-      </section>
-      <!-- One -->
-      <!-- <section id="one" class="wrapper style2 spotlights">
+
+        <!-- One -->
+        <!-- <section id="one" class="wrapper style2 spotlights">
         <section>
           <div class="content">
             <div class="inner">
               <h2>Skills</h2>
               <ul class="actions"> -->
-      <!-- <ul class="contact">
+        <!-- <ul class="contact">
                 <li>
                   <h3></h3>
                   <span
@@ -69,11 +107,12 @@
                   <h3></h3>
                   <span></span>
                 </li> -->
-      <!-- </ul>
+        <!-- </ul>
             </div>
           </div>
         </section>
       </section> -->
+      </section>
 
 
       <!-- Two -->
@@ -81,54 +120,82 @@
         <div class="inner">
           <h2 href="#projects">Projects</h2>
           <div class="features">
-            <section>
-              <span class="icon solid major fa-code"></span>
-              <h3>
-                <img src="./images/Conjugator.png" alt="conjugator">
-                Conjugator.IO
-              </h3>
-              <p>
-                UI/UX for Landing page completed using HTML, CSS, and LESS.
-              </p>
-
-              <a href="https://conjugatorbuildweek.netlify.com/" target="_blank">Check it out here</a>
-            </section>
-            <section>
-              <span class="icon solid major fas fa-blog"></span>
-              <img src="./images//Crypto .png" alt="crypto coin tracker">
-              <h3>
-                Crypto Tracker
-              </h3>
-              <p>
-                Crypto currency daily tracker.
-              </p>
-
-              <a href="https://dark-mode-crypto.now.sh/" target="_blank">Check it out here</a>
-            </section>
-
 
             <section>
-              <span class="icon solid major fa-cog"></span>
-              <img src="./images//Movies.png" alt="movie app">
-              <h3>Movies</h3>
-              <p>
-                Movie app created using React, MovieDB API, and Styled components
-              </p>
-              <a href="https://mymovies.netlify.com/" target="_blank">Check it out here</a>
+              <!-- <span class="icon solid major fas fa-blog"></span> -->
+              <div class="code">
+                <img src="./images/connect2.png" alt="crypto coin tracker">
+                <h3>
+                  Connect Our Kids
+                </h3>
+                <p>
+                  Connect our Kids is a non-profit that helps child welfare professionals and advocates find permanent
+                  holds for kids in foster care.
+                </p>
+                <ul>
+                  <li>Tasked with developing the document and photo upload features as well as implementing UI/UX
+                    re-design
+                  </li>
+                  <li>Tech Stack: React Native, Expo, Styled Components</li>
+                </ul>
+
+                <a href="https://apps.apple.com/us/app/connect-our-kids/id1471038972?mt=8" target="_blank">Check it out
+                  on
+                  the App Store</a><br>
+                <a href="https://play.google.com/store/apps/details?id=com.connectOurKids" target="_blank">Check it out
+                  on
+                  the Play Store</a><br>
+              </div>
             </section>
 
             <section>
-              <span class="icon solid major fa-desktop"></span>
-              <h3>
-                <img src="./images//food.png" alt="food truck picture">
-                Food Truck Tracker
-              </h3>
-              <p>
-                App that let's you track food trucks in your area.
-              </p>
+              <div class="code">
+                <!-- <span class="icon solid major fa-code"></span> -->
+                <h3>
+                  <img src="./images/Conjugator.png" alt="conjugator"><br>
+                  Conjugator.IO
+                </h3>
+                <p>Conjugator.io let's you translate different verbs from Spanish to English</p>
+                <ul>
+                  <li>Designed and Developed UX/UI for Landing page</li>
+                  <li>Tech Stack: HTML, CSS, and LESS</li>
+                </ul>
 
-              <a href="https://foodtruckr.netlify.com/" target="_blank">Check it out here</a>
+                <a href="https://conjugatorbuildweek.netlify.com/" target="_blank">Check out site</a><br>
+                <a href="https://github.com/Sara-DLC/UI" target="_blank">View Source Code</a>
+              </div>
+            </section>
+            <section>
+              <!-- <span class="icon solid major fa-cog"></span> -->
+              <div class="code">
+                <img src="./images//Movies.png" alt="movie app">
+                <h3>Movies</h3>
+                <p>
+                  Movie app created using React, MovieDB API, and Styled components
+                </p>
+                <a href="https://mymovies.netlify.com/" target="_blank">Check out site</a><br>
+                <a href="https://github.com/Sara-DLC/Front-end" target="_blank">View Source Code</a>
+              </div>
+            </section>
 
+            <section>
+              <!-- <span class="icon solid major fa-desktop"></span> -->
+              <div class="code">
+                <h3>
+                  <img src="./images//food.png" alt="food truck picture"><br>
+                  Food Truck Tracker
+                </h3>
+                <p>
+                  App that let's you track food trucks in your area.
+                </p>
+                <ul>
+                  <li>Designed and Developed UX/UI for Landing page</li>
+                  <li>Tech Stack: HTML, CSS, and LESS</li>
+                </ul>
+
+                <a href="https://foodtruckr.netlify.com/" target="_blank">Check out site</a><br>
+                <a href="https://github.com/Sara-DLC/Front-end" target="_blank">View Source Code</a>
+              </div>
             </section>
       </section>
 
