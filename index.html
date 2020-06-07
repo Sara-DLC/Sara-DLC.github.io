@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 
   <head>
@@ -33,9 +29,19 @@
       }
     </style>
     <style>
+      .row {
+        text-align: center;
+      }
+
+      .column {
+        width: 50%;
+        list-style-type: none;
+      }
+    </style>
+    <style>
       .projects {
         text-align: center;
-        list-style-type: none
+        list-style-type: none;
       }
     </style>
     <style>
@@ -55,9 +61,9 @@
         <nav>
           <ul>
             <li><a href="#intro">Welcome</a></li>
+            <li><a href="#one">Skills</a></li>
             <li><a href="#two">Projects</a></li>
             <li><a href="#three">Contact Me</a></li>
-            <!-- <li><a href="#one">Skills</a></li> -->
           </ul>
         </nav>
       </div>
@@ -72,46 +78,39 @@
             <h1>Sara De La Cruz</h1>
             <img text-align="center" src="./images/portfolio_pic.jpg" alt="Sara De La Cruz photo">
             <p>Full Stack Software Developer</p><br />
-            <p>Passionate about learning and technology, I’m a midwest based Full Stack developer. I’m experienced in
-              JavaScript, HTML5, CSS3, Python and modern libraries such as React and React Native. On my free time I
-              enjoy
-              board games and endless hours of documentaries.
+            <p>I’m a midwest based Full Stack developer passionate technology. I enjoy learning new
+              languages and creating beautiful responsive websites. I spend my free time hiking, playing board games and
+              watching endless hours of documentaries.
             </p>
           </div>
           <ul class="projects">
             <li><a href="#two" class="button scrolly">Projects</a></li>
           </ul>
+
         </div>
 
         <!-- One -->
-        <!-- <section id="one" class="wrapper style2 spotlights">
-        <section>
-          <div class="content">
-            <div class="inner">
-              <h2>Skills</h2>
-              <ul class="actions"> -->
-        <!-- <ul class="contact">
-                <li>
-                  <h3></h3>
-                  <span
-                    ><br />
-                   <br />
-                   </span
-                  >
-                </li>
-                <li>
-                  <h3></h3>
-                  <p></p>
-                </li>
-                <li>
-                  <h3></h3>
-                  <span></span>
-                </li> -->
-        <!-- </ul>
-            </div>
-          </div>
+        <section id="one" class="wrapper style2 spotlights">
+          <section>
+            <div class="content">
+              <div class="inner">
+                <h2>Skills</h2><br>
+                <div class="row">
+                  <ul class="column">
+                    <li>> HTML5 & CSS3</li>
+                    <li>> JavaScript</li>
+                    <li>> React & Redux</li>
+                  </ul>
+
+                  <ul class="column">
+                    <li>> React Native & Expo</li>
+                    <li>> Node & Express</li>
+                    <li>> Python & Django</li>
+                  </ul>
+                </div>
+              </div>
+          </section>
         </section>
-      </section> -->
       </section>
 
 
@@ -130,7 +129,7 @@
                 </h3>
                 <p>
                   Connect our Kids is a non-profit that helps child welfare professionals and advocates find permanent
-                  holds for kids in foster care.
+                  homes for kids in foster care.
                 </p>
                 <ul>
                   <li>Tasked with developing the document and photo upload features as well as implementing UI/UX
