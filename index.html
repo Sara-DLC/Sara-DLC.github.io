@@ -30,12 +30,20 @@
     </style>
     <style>
       .row {
-        text-align: center;
+        width: 60vw;
+        margin-left: 18%;
       }
 
       .column {
         width: 50%;
-        list-style-type: none;
+        /* margin: none; */
+        /* list-style-type: none; */
+      }
+
+      .column-two {
+        width: 50%;
+        /* margin: none; */
+        /* list-style-type: none; */
       }
     </style>
     <style>
@@ -52,6 +60,11 @@
         list-style-type: none
       }
     </style>
+    <style>
+      .skills-container {
+        width: 60vw;
+      }
+    </style>
   </head>
 
   <body class="is-preload">
@@ -64,6 +77,7 @@
             <li><a href="#one">Skills</a></li>
             <li><a href="#two">Projects</a></li>
             <li><a href="#three">Contact Me</a></li>
+            <li><a href="resume.html" class="active">Resume</a></li>
           </ul>
         </nav>
       </div>
@@ -78,9 +92,9 @@
             <h1>Sara De La Cruz</h1>
             <img text-align="center" src="./images/portfolio_pic.jpg" alt="Sara De La Cruz photo">
             <p>Full Stack Software Developer</p><br />
-            <p>I’m a midwest based Full Stack developer passionate technology. I enjoy learning new
-              languages and creating beautiful responsive websites. I spend my free time hiking, playing board games and
-              watching endless hours of documentaries.
+            <p>I am midwest based Full Stack developer passionate about technology and learning. I enjoy crafting
+              beautiful responsive websites. During my free time I enjoy playing board games, watching endless hours of
+              documentaries, and learning how to be a better developer.
             </p>
           </div>
           <ul class="projects">
@@ -93,19 +107,18 @@
         <section id="one" class="wrapper style2 spotlights">
           <section>
             <div class="content">
-              <div class="inner">
+              <div class="skills-container">
                 <h2>Skills</h2><br>
                 <div class="row">
                   <ul class="column">
-                    <li>> HTML5 & CSS3</li>
-                    <li>> JavaScript</li>
-                    <li>> React & Redux</li>
+                    <li>HTML5 & CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React & Redux</li>
                   </ul>
-
-                  <ul class="column">
-                    <li>> React Native & Expo</li>
-                    <li>> Node & Express</li>
-                    <li>> Python & Django</li>
+                  <ul class="column-two">
+                    <li>React Native & Expo</li>
+                    <li>Node & Express</li>
+                    <li>Python & Django</li>
                   </ul>
                 </div>
               </div>
@@ -156,7 +169,7 @@
                 </h3>
                 <p>Conjugator.io let's you translate different verbs from Spanish to English</p>
                 <ul>
-                  <li>Designed and Developed UX/UI for Landing page</li>
+                  <li>Designed and Developed UI/UX for Landing page</li>
                   <li>Tech Stack: HTML, CSS, and LESS</li>
                 </ul>
 
@@ -167,13 +180,18 @@
             <section>
               <!-- <span class="icon solid major fa-cog"></span> -->
               <div class="code">
-                <img src="./images//Movies.png" alt="movie app">
-                <h3>Movies</h3>
+                <img src="./images/dashboard.png" alt="movie app">
+                <h3>Customer Dashboard</h3>
                 <p>
-                  Movie app created using React, MovieDB API, and Styled components
+                  Customer Dashboard is an information management tool that displays users demographics and associated
+                  accounts.
+                <ul>
+                  <li>Fully Designed and Developed UI/UX, Front-end, and Back-end</li>
+                  <li>Tech Stack: CSS, React & Redux, Node & Express</li>
+                </ul>
                 </p>
                 <a href="https://mymovies.netlify.com/" target="_blank">Check out site</a><br>
-                <a href="https://github.com/Sara-DLC/Front-end" target="_blank">View Source Code</a>
+                <a href="https://github.com/Sara-DLC/case-overview" target="_blank">View Source Code</a>
               </div>
             </section>
 
@@ -188,8 +206,8 @@
                   App that let's you track food trucks in your area.
                 </p>
                 <ul>
-                  <li>Designed and Developed UX/UI for Landing page</li>
-                  <li>Tech Stack: HTML, CSS, and LESS</li>
+                  <li>Tasked with developing the Login, Register, Customer, and Vendor pages</li>
+                  <li>Tech Stack: Sass, React & Redux</li>
                 </ul>
 
                 <a href="https://foodtruckr.netlify.com/" target="_blank">Check out site</a><br>
@@ -209,11 +227,11 @@
                 <div class="fields">
                   <div class="field half">
                     <label for="name">Name</label>
-                    <input type="text" name="name" id="name" />
+                    <input type="text" name="name" id="name" required />
                   </div>
                   <div class="field half">
                     <label for="email">Email</label>
-                    <input type="text" name="email" id="email" />
+                    <input type="text" name="email" id="email" required />
                   </div>
                   <div class="field">
                     <label for="message">Message</label>
